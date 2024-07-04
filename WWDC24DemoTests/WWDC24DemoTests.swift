@@ -6,7 +6,6 @@
 //
 
 import Testing
-@testable import WWDC24Demo
 
 struct WWDC24DemoTests {
 
