@@ -29,7 +29,7 @@ struct OnboardingView: View {
                     [sinInRange(0.3...0.6, 0.339, 0.784, t),    sinInRange(1.0...1.2, 1.22, 0.772, t)],
                     [sinInRange(1.0...1.5, 0.939, 0.056, t),    sinInRange(1.3...1.7, 0.47, 0.342, t)]
                 ],
-                colors: [.black, .blue, .purple, .orange, .red, .orange, .indigo, .black, .black],
+                colors: [.black, .pink, .pink,.orange,.yellow,.green, .gray, .black],
                 background: .black
             )
             .ignoresSafeArea()
