@@ -22,8 +22,7 @@ struct NewTransitionDemo: View {
                     .font(.system(size: 30))
                     .bold()
             }
-                
-                .matchedTransitionSource(id: "Test", in: namespace)
+            .matchedTransitionSource(id: "Test", in: namespace)
         }
     }
 }

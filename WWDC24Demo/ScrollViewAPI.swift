@@ -13,7 +13,7 @@ struct ScrollViewAPI: View {
     var body: some View {
         ZStack {
             ScrollView {
-                ForEach(0...6, id: \.self) { meshColor in
+                ForEach(0...8, id: \.self) { meshColor in
                     ScrollCell(meshColors: [Color.gray, Color.pink, Color.black, Color.purple, Color.yellow, Color.orange, Color.yellow, Color.indigo, Color.green].shuffled())
                 }
                 .padding()
@@ -35,6 +35,10 @@ struct ScrollViewAPI: View {
                     }
                 }
             }
+            .toolbarVisibility(isScrolling ? .hidden : .visible, for: .tabBar)
+            .toolbarVisibility(isScrolling ? .hidden : .visible, for: .navigationBar)
+            .navigationTitle("Mesheesh")
+            
             VStack {
                 HStack {
                     Text("isScrolling: \(isScrolling)")
