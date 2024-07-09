@@ -11,19 +11,95 @@ struct NewTransitionDemo: View {
     @Namespace private var namespace
     
     var body: some View {
-        NavigationLink {
-            Text("Detail")
-                .navigationTransition(.zoom(sourceID: "Test", in: namespace))
-        } label: {
+//        ZStack {
             VStack {
-                Image(systemName: "arrowshape.turn.up.forward.fill")
-                    .font(.system(size: 40))
-                Text("GO")
-                    .font(.system(size: 30))
-                    .bold()
+                VStack {
+                    Text("text")
+                        .matchedGeometryEffect(id: "text", in: namespace)
+                    Image("muaicappicon")
+                        .resizable()
+                        .scaledToFill()
+                        .clipShape(.rect(cornerRadius: 10))
+                        .frame(width: 100, height: 100)
+                        .matchedGeometryEffect(id: "Image", in: namespace)
+                }
+                .matchedTransitionSource(id: "Test", in: namespace)
+                
+                NavigationLink {
+                    VStack {
+                        Text("text")
+                            .matchedGeometryEffect(id: "text", in: namespace)
+                        Image("muaicappicon")
+                            .resizable()
+                            .scaledToFill()
+                            .clipShape(.rect(cornerRadius: 10))
+                            .frame(width: 100, height: 100)
+                            .matchedGeometryEffect(id: "Image", in: namespace)
+                    }
+                    .navigationTransition(.zoom(sourceID: "Test", in: namespace))
+                } label: {
+                    Text("Is show Full")
+                }
             }
-            .matchedTransitionSource(id: "Test", in: namespace)
-        }
+            
+//            if isShowFull {
+//                VStack {
+//                    Image("muaicappicon")
+//                        .resizable()
+//                        .scaledToFill()
+//                        .clipShape(.rect(cornerRadius: 10))
+//                        .frame(width: 100, height: 100)
+//                        .matchedGeometryEffect(id: "Image", in: namespace)
+//                    Text("test")
+//                        .matchedGeometryEffect(id: "test", in: namespace)
+//                    Button {
+//                        withAnimation {
+//                            isShowFull.toggle()
+//                        }
+//                    } label: {
+//                        Text("Dismiss")
+//                    }
+//                }
+//                .padding(20)
+//                .frame(maxWidth: .infinity)
+//                .background(Color.cyan.gradient)
+//                .matchedTransitionSource(id: "Test", in: namespace)
+//            }
+//        }
+//        .fullScreenCover(isPresented: $isShowFull) {
+//            VStack {
+//                Image("muaicappicon")
+//                    .resizable()
+//                    .scaledToFill()
+//                    .clipShape(.rect(cornerRadius: 10))
+//                    .frame(width: 200, height: 200)
+//                    .matchedGeometryEffect(id: "Image", in: namespace)
+//                Button {
+//                    isShowFull.toggle()
+//                } label: {
+//                    Text("Dismiss")
+//                }
+//
+//            }
+//            .matchedTransitionSource(id: "Test", in: namespace)
+//        }
+//        NavigationLink {
+//            Image("muaicappicon")
+//                .resizable()
+//                .scaledToFill()
+//                .clipShape(.rect(cornerRadius: 10))
+//                .frame(width: 200, height: 200)
+//                .matchedGeometryEffect(id: "Image", in: namespace)
+////                .navigationTransition(.zoom(sourceID: "Test", in: namespace))
+//        } label: {
+//            Image("muaicappicon")
+//                .resizable()
+//                .scaledToFill()
+//                .clipShape(.rect(cornerRadius: 10))
+//                .frame(width: 100, height: 100)
+//                .matchedGeometryEffect(id: "Image", in: namespace)
+////                .matchedTransitionSource(id: "Test", in: namespace)
+//        }
     }
 }
 
