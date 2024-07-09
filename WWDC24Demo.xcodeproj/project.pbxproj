@@ -16,6 +16,7 @@
 		BF6E99622C1B3C1E00DB09FA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E99612C1B3C1E00DB09FA /* OnboardingView.swift */; };
 		BF9857842C36945300846628 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9857832C36945300846628 /* HomeView.swift */; };
 		BF9857862C3694A100846628 /* ScrollViewAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9857852C3694A100846628 /* ScrollViewAPI.swift */; };
+		BFD8B49F2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8B49E2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift */; };
 		BFF9A4BB2C36955B002F1DF9 /* NewTransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9A4BA2C36955B002F1DF9 /* NewTransitionDemo.swift */; };
 		BFF9A4BD2C36966C002F1DF9 /* AppleWWDC24AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9A4BC2C369667002F1DF9 /* AppleWWDC24AnimatedTextView.swift */; };
 		BFF9A4BF2C3696C1002F1DF9 /* FontSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9A4BE2C3696BF002F1DF9 /* FontSettings.swift */; };
@@ -44,6 +45,7 @@
 		BF6E99612C1B3C1E00DB09FA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BF9857832C36945300846628 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BF9857852C3694A100846628 /* ScrollViewAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewAPI.swift; sourceTree = "<group>"; };
+		BFD8B49E2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSfSymbolDemo.swift; sourceTree = "<group>"; };
 		BFF9A4BA2C36955B002F1DF9 /* NewTransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransitionDemo.swift; sourceTree = "<group>"; };
 		BFF9A4BC2C369667002F1DF9 /* AppleWWDC24AnimatedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWWDC24AnimatedTextView.swift; sourceTree = "<group>"; };
 		BFF9A4BE2C3696BF002F1DF9 /* FontSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSettings.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				BF0F03712C1A7A9400001601 /* WWDC24DemoApp.swift */,
 				BF0F03732C1A7A9400001601 /* ContentView.swift */,
 				BF9857832C36945300846628 /* HomeView.swift */,
+				BFD8B49E2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift */,
 				BFF9A4BA2C36955B002F1DF9 /* NewTransitionDemo.swift */,
 				BFF9A4BC2C369667002F1DF9 /* AppleWWDC24AnimatedTextView.swift */,
 				BFF9A4BE2C3696BF002F1DF9 /* FontSettings.swift */,
@@ -223,6 +226,7 @@
 			files = (
 				BF6E99622C1B3C1E00DB09FA /* OnboardingView.swift in Sources */,
 				BF9857842C36945300846628 /* HomeView.swift in Sources */,
+				BFD8B49F2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift in Sources */,
 				BFF9A4BB2C36955B002F1DF9 /* NewTransitionDemo.swift in Sources */,
 				BF0F03742C1A7A9400001601 /* ContentView.swift in Sources */,
 				BF49D3D32C3A74C700A2F521 /* ScrollCell.swift in Sources */,

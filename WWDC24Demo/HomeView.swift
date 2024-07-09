@@ -10,6 +10,7 @@ enum APIViewType: String, CaseIterable {
     case ScrollViewAPI
     case transitionAPI
     case AppleWWDC24AnimatedTextView
+    case NewSFSymbolDemo
 }
 struct HomeView: View {
     @State private var path: [APIViewType] = []
@@ -35,6 +36,8 @@ struct HomeView: View {
                         }
                         .buttonStyle(.bordered)
                     }
+                case .NewSFSymbolDemo:
+                    NewSfSymbolDemo()
                         
                 }
             }
