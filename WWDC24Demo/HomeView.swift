@@ -11,6 +11,7 @@ enum APIViewType: String, CaseIterable {
     case transitionAPI
     case AppleWWDC24AnimatedTextView
     case NewSFSymbolDemo
+    case mixColor
 }
 struct HomeView: View {
     @State private var path: [APIViewType] = []
@@ -20,7 +21,7 @@ struct HomeView: View {
         NavigationStack(path: $path) {
             List(APIViewType.allCases, id: \.self) { kavSoftViewType in
                 NavigationLink(kavSoftViewType.rawValue, value: kavSoftViewType)
-                    
+                
             }
             .navigationDestination(for: APIViewType.self) { kavSoftViewType in
                 switch kavSoftViewType {
@@ -38,7 +39,8 @@ struct HomeView: View {
                     }
                 case .NewSFSymbolDemo:
                     NewSfSymbolDemo()
-                        
+                case .mixColor:
+                    MixColorDemo()
                 }
             }
             .navigationTitle("Home")
