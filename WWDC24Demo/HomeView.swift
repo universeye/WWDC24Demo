@@ -6,13 +6,17 @@
 //
 
 import SwiftUI
+import WWDC24API
+
 enum APIViewType: String, CaseIterable {
     case ScrollViewAPI
     case transitionAPI
     case AppleWWDC24AnimatedTextView
     case NewSFSymbolDemo
     case mixColor
+    case presentationSizing
 }
+
 struct HomeView: View {
     @State private var path: [APIViewType] = []
     @State private var isOn = false
@@ -41,6 +45,8 @@ struct HomeView: View {
                     NewSfSymbolDemo()
                 case .mixColor:
                     MixColorDemo()
+                case .presentationSizing:
+                    PresentationSizingDemo()
                 }
             }
             .navigationTitle("Home")

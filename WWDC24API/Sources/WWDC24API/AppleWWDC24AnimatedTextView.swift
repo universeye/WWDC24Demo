@@ -2,7 +2,7 @@ import SwiftUI
 
 // Remember to download FontSettings.swift
 
-struct WWDC24AnimatedTextView: View {
+public struct WWDC24AnimatedTextView: View {
     var text = "Hello, World!"
     var animation: Animation = .easeInOut
     var targetFontSize: CGFloat = 40
@@ -18,7 +18,7 @@ struct WWDC24AnimatedTextView: View {
     
     @StateObject private var fontSettings: FontSettings // Uses the FontSettings class
     
-    init(_ text: String, toggle: Bool, animation: Animation = .easeInOut, targetFontSize: CGFloat = 40, minimumFontSize: CGFloat = 30, targetFontWeight: Font.Weight = .semibold, minimumFontWeight: Font.Weight = .ultraLight, targetFontWidth: Font.Width = .expanded, minimumFontWidth: Font.Width = .compressed, delayBetweenSwitch: Double = 3, delayBetweenCharacter: Double = 2) {
+    public init(_ text: String, toggle: Bool, animation: Animation = .easeInOut, targetFontSize: CGFloat = 40, minimumFontSize: CGFloat = 30, targetFontWeight: Font.Weight = .semibold, minimumFontWeight: Font.Weight = .ultraLight, targetFontWidth: Font.Width = .expanded, minimumFontWidth: Font.Width = .compressed, delayBetweenSwitch: Double = 3, delayBetweenCharacter: Double = 2) {
         self.text = text
         self.toggle = toggle
         self.animation = animation
@@ -33,7 +33,7 @@ struct WWDC24AnimatedTextView: View {
         _fontSettings = StateObject(wrappedValue: FontSettings(text: text, targetFontSize: targetFontSize, targetFontWeight: targetFontWeight, targetFontWidth: targetFontWidth))
     }
     
-    var body: some View {
+    public var body: some View {
         VStack {
             HStack(spacing: 0) {
                 ForEach(characterIndices(text: text), id: \.index) { item in

@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-struct NewTransitionDemo: View {
+public struct NewTransitionDemo: View {
     @Namespace private var namespace
     
-    var body: some View {
+    public init() {}
+    
+    public var body: some View {
 //        ZStack {
             VStack {
                 VStack {
@@ -36,7 +38,7 @@ struct NewTransitionDemo: View {
                             .frame(width: 100, height: 100)
                             .matchedGeometryEffect(id: "Image", in: namespace)
                     }
-                    .navigationTransition(.zoom(sourceID: "Test", in: namespace))
+//                    .navigationTransition(.zoom(sourceID: "Test", in: namespace))
                 } label: {
                     Text("Is show Full")
                 }

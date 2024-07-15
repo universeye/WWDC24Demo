@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-struct ScrollViewAPI: View {
+public struct ScrollViewAPI: View {
     @State private var isScrolling: Bool = false
+    public init() {}
     
-    var body: some View {
+    public var body: some View {
         ZStack {
             ScrollView {
                 ForEach(0...8, id: \.self) { meshColor in

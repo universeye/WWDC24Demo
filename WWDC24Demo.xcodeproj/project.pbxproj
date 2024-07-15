@@ -12,17 +12,20 @@
 		BF0F03762C1A7A9500001601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0F03752C1A7A9500001601 /* Assets.xcassets */; };
 		BF0F03792C1A7A9500001601 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0F03782C1A7A9500001601 /* Preview Assets.xcassets */; };
 		BF3341762C418BD600C30273 /* TabViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3341752C418BD600C30273 /* TabViewDemo.swift */; };
-		BF49D3D32C3A74C700A2F521 /* ScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49D3D22C3A74C700A2F521 /* ScrollCell.swift */; };
 		BF6E99592C1B346900DB09FA /* WWDC24DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E99582C1B346900DB09FA /* WWDC24DemoTests.swift */; };
 		BF6E99622C1B3C1E00DB09FA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E99612C1B3C1E00DB09FA /* OnboardingView.swift */; };
-		BF8DAC242C3ED7FB00B132AC /* MixColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8DAC232C3ED7FB00B132AC /* MixColorDemo.swift */; };
-		BF8DAC262C3ED94E00B132AC /* RoundRectViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8DAC252C3ED94E00B132AC /* RoundRectViewModifier.swift */; };
 		BF9857842C36945300846628 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9857832C36945300846628 /* HomeView.swift */; };
-		BF9857862C3694A100846628 /* ScrollViewAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9857852C3694A100846628 /* ScrollViewAPI.swift */; };
-		BFD8B49F2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8B49E2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift */; };
-		BFF9A4BB2C36955B002F1DF9 /* NewTransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9A4BA2C36955B002F1DF9 /* NewTransitionDemo.swift */; };
-		BFF9A4BD2C36966C002F1DF9 /* AppleWWDC24AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9A4BC2C369667002F1DF9 /* AppleWWDC24AnimatedTextView.swift */; };
-		BFF9A4BF2C3696C1002F1DF9 /* FontSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9A4BE2C3696BF002F1DF9 /* FontSettings.swift */; };
+		BFA437802C44E0F4008759B8 /* WWDC24API in Resources */ = {isa = PBXBuildFile; fileRef = BFA4377F2C44E0F4008759B8 /* WWDC24API */; };
+		BFA437832C44E119008759B8 /* WWDC24API in Frameworks */ = {isa = PBXBuildFile; productRef = BFA437822C44E119008759B8 /* WWDC24API */; };
+		BFA437912C44E4D1008759B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA437902C44E4D1008759B8 /* ContentView.swift */; };
+		BFA437932C44E4D2008759B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA437922C44E4D2008759B8 /* Assets.xcassets */; };
+		BFA437962C44E4D2008759B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA437952C44E4D2008759B8 /* Preview Assets.xcassets */; };
+		BFA437A12C44E4D2008759B8 /* WWDC24McTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA437A02C44E4D2008759B8 /* WWDC24McTests.swift */; };
+		BFA437AB2C44E4D2008759B8 /* WWDC24McUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA437AA2C44E4D2008759B8 /* WWDC24McUITests.swift */; };
+		BFA437AD2C44E4D2008759B8 /* WWDC24McUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA437AC2C44E4D2008759B8 /* WWDC24McUITestsLaunchTests.swift */; };
+		BFA437B72C44E52A008759B8 /* WWDC24DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F03712C1A7A9400001601 /* WWDC24DemoApp.swift */; };
+		BFA437B82C44E554008759B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9857832C36945300846628 /* HomeView.swift */; };
+		BFA437BA2C44E563008759B8 /* WWDC24API in Frameworks */ = {isa = PBXBuildFile; productRef = BFA437B92C44E563008759B8 /* WWDC24API */; };
 		BFF9A4C12C3696D8002F1DF9 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9A4C02C3696D8002F1DF9 /* Preview.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +37,20 @@
 			remoteGlobalIDString = BF0F036D2C1A7A9400001601;
 			remoteInfo = WWDC24Demo;
 		};
+		BFA4379D2C44E4D2008759B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0F03662C1A7A9400001601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA4378B2C44E4D1008759B8;
+			remoteInfo = WWDC24Mc;
+		};
+		BFA437A72C44E4D2008759B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0F03662C1A7A9400001601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA4378B2C44E4D1008759B8;
+			remoteInfo = WWDC24Mc;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -43,18 +60,21 @@
 		BF0F03752C1A7A9500001601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF0F03782C1A7A9500001601 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF3341752C418BD600C30273 /* TabViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo.swift; sourceTree = "<group>"; };
-		BF49D3D22C3A74C700A2F521 /* ScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCell.swift; sourceTree = "<group>"; };
 		BF6E99562C1B346900DB09FA /* WWDC24DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC24DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6E99582C1B346900DB09FA /* WWDC24DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC24DemoTests.swift; sourceTree = "<group>"; };
 		BF6E99612C1B3C1E00DB09FA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		BF8DAC232C3ED7FB00B132AC /* MixColorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixColorDemo.swift; sourceTree = "<group>"; };
-		BF8DAC252C3ED94E00B132AC /* RoundRectViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectViewModifier.swift; sourceTree = "<group>"; };
 		BF9857832C36945300846628 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		BF9857852C3694A100846628 /* ScrollViewAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewAPI.swift; sourceTree = "<group>"; };
-		BFD8B49E2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSfSymbolDemo.swift; sourceTree = "<group>"; };
-		BFF9A4BA2C36955B002F1DF9 /* NewTransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransitionDemo.swift; sourceTree = "<group>"; };
-		BFF9A4BC2C369667002F1DF9 /* AppleWWDC24AnimatedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWWDC24AnimatedTextView.swift; sourceTree = "<group>"; };
-		BFF9A4BE2C3696BF002F1DF9 /* FontSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSettings.swift; sourceTree = "<group>"; };
+		BFA4377F2C44E0F4008759B8 /* WWDC24API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = WWDC24API; sourceTree = SOURCE_ROOT; };
+		BFA4378C2C44E4D1008759B8 /* WWDC24Mc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC24Mc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA437902C44E4D1008759B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFA437922C44E4D2008759B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA437952C44E4D2008759B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA437972C44E4D2008759B8 /* WWDC24Mc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WWDC24Mc.entitlements; sourceTree = "<group>"; };
+		BFA4379C2C44E4D2008759B8 /* WWDC24McTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC24McTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA437A02C44E4D2008759B8 /* WWDC24McTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC24McTests.swift; sourceTree = "<group>"; };
+		BFA437A62C44E4D2008759B8 /* WWDC24McUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC24McUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA437AA2C44E4D2008759B8 /* WWDC24McUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC24McUITests.swift; sourceTree = "<group>"; };
+		BFA437AC2C44E4D2008759B8 /* WWDC24McUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC24McUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BFF9A4C02C3696D8002F1DF9 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,10 +83,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA437832C44E119008759B8 /* WWDC24API in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF6E99532C1B346900DB09FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA437892C44E4D1008759B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA437BA2C44E563008759B8 /* WWDC24API in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA437992C44E4D2008759B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA437A32C44E4D2008759B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,9 +122,14 @@
 		BF0F03652C1A7A9400001601 = {
 			isa = PBXGroup;
 			children = (
+				BFA4377F2C44E0F4008759B8 /* WWDC24API */,
 				BF0F03702C1A7A9400001601 /* WWDC24Demo */,
 				BF6E99572C1B346900DB09FA /* WWDC24DemoTests */,
+				BFA4378D2C44E4D1008759B8 /* WWDC24Mc */,
+				BFA4379F2C44E4D2008759B8 /* WWDC24McTests */,
+				BFA437A92C44E4D2008759B8 /* WWDC24McUITests */,
 				BF0F036F2C1A7A9400001601 /* Products */,
+				BFA437812C44E119008759B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +138,9 @@
 			children = (
 				BF0F036E2C1A7A9400001601 /* WWDC24Demo.app */,
 				BF6E99562C1B346900DB09FA /* WWDC24DemoTests.xctest */,
+				BFA4378C2C44E4D1008759B8 /* WWDC24Mc.app */,
+				BFA4379C2C44E4D2008759B8 /* WWDC24McTests.xctest */,
+				BFA437A62C44E4D2008759B8 /* WWDC24McUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,15 +152,7 @@
 				BF0F03732C1A7A9400001601 /* ContentView.swift */,
 				BF9857832C36945300846628 /* HomeView.swift */,
 				BF3341752C418BD600C30273 /* TabViewDemo.swift */,
-				BFD8B49E2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift */,
-				BFF9A4BA2C36955B002F1DF9 /* NewTransitionDemo.swift */,
-				BF8DAC232C3ED7FB00B132AC /* MixColorDemo.swift */,
-				BF8DAC252C3ED94E00B132AC /* RoundRectViewModifier.swift */,
-				BFF9A4BC2C369667002F1DF9 /* AppleWWDC24AnimatedTextView.swift */,
-				BFF9A4BE2C3696BF002F1DF9 /* FontSettings.swift */,
 				BFF9A4C02C3696D8002F1DF9 /* Preview.swift */,
-				BF9857852C3694A100846628 /* ScrollViewAPI.swift */,
-				BF49D3D22C3A74C700A2F521 /* ScrollCell.swift */,
 				BF6E99612C1B3C1E00DB09FA /* OnboardingView.swift */,
 				BF0F03752C1A7A9500001601 /* Assets.xcassets */,
 				BF0F03772C1A7A9500001601 /* Preview Content */,
@@ -133,6 +176,49 @@
 			path = WWDC24DemoTests;
 			sourceTree = "<group>";
 		};
+		BFA437812C44E119008759B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA4378D2C44E4D1008759B8 /* WWDC24Mc */ = {
+			isa = PBXGroup;
+			children = (
+				BFA437902C44E4D1008759B8 /* ContentView.swift */,
+				BFA437922C44E4D2008759B8 /* Assets.xcassets */,
+				BFA437972C44E4D2008759B8 /* WWDC24Mc.entitlements */,
+				BFA437942C44E4D2008759B8 /* Preview Content */,
+			);
+			path = WWDC24Mc;
+			sourceTree = "<group>";
+		};
+		BFA437942C44E4D2008759B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFA437952C44E4D2008759B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA4379F2C44E4D2008759B8 /* WWDC24McTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA437A02C44E4D2008759B8 /* WWDC24McTests.swift */,
+			);
+			path = WWDC24McTests;
+			sourceTree = "<group>";
+		};
+		BFA437A92C44E4D2008759B8 /* WWDC24McUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA437AA2C44E4D2008759B8 /* WWDC24McUITests.swift */,
+				BFA437AC2C44E4D2008759B8 /* WWDC24McUITestsLaunchTests.swift */,
+			);
+			path = WWDC24McUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +235,9 @@
 			dependencies = (
 			);
 			name = WWDC24Demo;
+			packageProductDependencies = (
+				BFA437822C44E119008759B8 /* WWDC24API */,
+			);
 			productName = WWDC24Demo;
 			productReference = BF0F036E2C1A7A9400001601 /* WWDC24Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +260,62 @@
 			productReference = BF6E99562C1B346900DB09FA /* WWDC24DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BFA4378B2C44E4D1008759B8 /* WWDC24Mc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA437AE2C44E4D2008759B8 /* Build configuration list for PBXNativeTarget "WWDC24Mc" */;
+			buildPhases = (
+				BFA437882C44E4D1008759B8 /* Sources */,
+				BFA437892C44E4D1008759B8 /* Frameworks */,
+				BFA4378A2C44E4D1008759B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWDC24Mc;
+			packageProductDependencies = (
+				BFA437B92C44E563008759B8 /* WWDC24API */,
+			);
+			productName = WWDC24Mc;
+			productReference = BFA4378C2C44E4D1008759B8 /* WWDC24Mc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA4379B2C44E4D2008759B8 /* WWDC24McTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA437B12C44E4D2008759B8 /* Build configuration list for PBXNativeTarget "WWDC24McTests" */;
+			buildPhases = (
+				BFA437982C44E4D2008759B8 /* Sources */,
+				BFA437992C44E4D2008759B8 /* Frameworks */,
+				BFA4379A2C44E4D2008759B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA4379E2C44E4D2008759B8 /* PBXTargetDependency */,
+			);
+			name = WWDC24McTests;
+			productName = WWDC24McTests;
+			productReference = BFA4379C2C44E4D2008759B8 /* WWDC24McTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA437A52C44E4D2008759B8 /* WWDC24McUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA437B42C44E4D2008759B8 /* Build configuration list for PBXNativeTarget "WWDC24McUITests" */;
+			buildPhases = (
+				BFA437A22C44E4D2008759B8 /* Sources */,
+				BFA437A32C44E4D2008759B8 /* Frameworks */,
+				BFA437A42C44E4D2008759B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA437A82C44E4D2008759B8 /* PBXTargetDependency */,
+			);
+			name = WWDC24McUITests;
+			productName = WWDC24McUITests;
+			productReference = BFA437A62C44E4D2008759B8 /* WWDC24McUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,6 +332,17 @@
 					BF6E99552C1B346900DB09FA = {
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = BF0F036D2C1A7A9400001601;
+					};
+					BFA4378B2C44E4D1008759B8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BFA4379B2C44E4D2008759B8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BFA4378B2C44E4D1008759B8;
+					};
+					BFA437A52C44E4D2008759B8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BFA4378B2C44E4D1008759B8;
 					};
 				};
 			};
@@ -205,6 +361,9 @@
 			targets = (
 				BF0F036D2C1A7A9400001601 /* WWDC24Demo */,
 				BF6E99552C1B346900DB09FA /* WWDC24DemoTests */,
+				BFA4378B2C44E4D1008759B8 /* WWDC24Mc */,
+				BFA4379B2C44E4D2008759B8 /* WWDC24McTests */,
+				BFA437A52C44E4D2008759B8 /* WWDC24McUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,12 +373,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA437802C44E0F4008759B8 /* WWDC24API in Resources */,
 				BF0F03792C1A7A9500001601 /* Preview Assets.xcassets in Resources */,
 				BF0F03762C1A7A9500001601 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF6E99542C1B346900DB09FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA4378A2C44E4D1008759B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA437962C44E4D2008759B8 /* Preview Assets.xcassets in Resources */,
+				BFA437932C44E4D2008759B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA4379A2C44E4D2008759B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA437A42C44E4D2008759B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,18 +417,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6E99622C1B3C1E00DB09FA /* OnboardingView.swift in Sources */,
-				BF8DAC262C3ED94E00B132AC /* RoundRectViewModifier.swift in Sources */,
 				BF9857842C36945300846628 /* HomeView.swift in Sources */,
-				BFD8B49F2C3D1EAA00366EB2 /* NewSfSymbolDemo.swift in Sources */,
-				BFF9A4BB2C36955B002F1DF9 /* NewTransitionDemo.swift in Sources */,
 				BF0F03742C1A7A9400001601 /* ContentView.swift in Sources */,
-				BF49D3D32C3A74C700A2F521 /* ScrollCell.swift in Sources */,
-				BF9857862C3694A100846628 /* ScrollViewAPI.swift in Sources */,
-				BF8DAC242C3ED7FB00B132AC /* MixColorDemo.swift in Sources */,
-				BFF9A4BF2C3696C1002F1DF9 /* FontSettings.swift in Sources */,
 				BF0F03722C1A7A9400001601 /* WWDC24DemoApp.swift in Sources */,
 				BFF9A4C12C3696D8002F1DF9 /* Preview.swift in Sources */,
-				BFF9A4BD2C36966C002F1DF9 /* AppleWWDC24AnimatedTextView.swift in Sources */,
 				BF3341762C418BD600C30273 /* TabViewDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +433,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFA437882C44E4D1008759B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA437B82C44E554008759B8 /* HomeView.swift in Sources */,
+				BFA437912C44E4D1008759B8 /* ContentView.swift in Sources */,
+				BFA437B72C44E52A008759B8 /* WWDC24DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA437982C44E4D2008759B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA437A12C44E4D2008759B8 /* WWDC24McTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA437A22C44E4D2008759B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA437AD2C44E4D2008759B8 /* WWDC24McUITestsLaunchTests.swift in Sources */,
+				BFA437AB2C44E4D2008759B8 /* WWDC24McUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +467,16 @@
 			isa = PBXTargetDependency;
 			target = BF0F036D2C1A7A9400001601 /* WWDC24Demo */;
 			targetProxy = BF6E995A2C1B346900DB09FA /* PBXContainerItemProxy */;
+		};
+		BFA4379E2C44E4D2008759B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA4378B2C44E4D1008759B8 /* WWDC24Mc */;
+			targetProxy = BFA4379D2C44E4D2008759B8 /* PBXContainerItemProxy */;
+		};
+		BFA437A82C44E4D2008759B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA4378B2C44E4D1008759B8 /* WWDC24Mc */;
+			targetProxy = BFA437A72C44E4D2008759B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -490,6 +702,138 @@
 			};
 			name = Release;
 		};
+		BFA437AF2C44E4D2008759B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WWDC24Mc/WWDC24Mc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WWDC24Mc/Preview Content\"";
+				DEVELOPMENT_TEAM = N492VC6PS9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.terrykuo.WWDC24Mc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BFA437B02C44E4D2008759B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WWDC24Mc/WWDC24Mc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WWDC24Mc/Preview Content\"";
+				DEVELOPMENT_TEAM = N492VC6PS9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.terrykuo.WWDC24Mc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BFA437B22C44E4D2008759B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N492VC6PS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.terrykuo.WWDC24McTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC24Mc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WWDC24Mc";
+			};
+			name = Debug;
+		};
+		BFA437B32C44E4D2008759B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N492VC6PS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.terrykuo.WWDC24McTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC24Mc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WWDC24Mc";
+			};
+			name = Release;
+		};
+		BFA437B52C44E4D2008759B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N492VC6PS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.terrykuo.WWDC24McUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WWDC24Mc;
+			};
+			name = Debug;
+		};
+		BFA437B62C44E4D2008759B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N492VC6PS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.terrykuo.WWDC24McUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WWDC24Mc;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -520,7 +864,45 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BFA437AE2C44E4D2008759B8 /* Build configuration list for PBXNativeTarget "WWDC24Mc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA437AF2C44E4D2008759B8 /* Debug */,
+				BFA437B02C44E4D2008759B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA437B12C44E4D2008759B8 /* Build configuration list for PBXNativeTarget "WWDC24McTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA437B22C44E4D2008759B8 /* Debug */,
+				BFA437B32C44E4D2008759B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA437B42C44E4D2008759B8 /* Build configuration list for PBXNativeTarget "WWDC24McUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA437B52C44E4D2008759B8 /* Debug */,
+				BFA437B62C44E4D2008759B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFA437822C44E119008759B8 /* WWDC24API */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WWDC24API;
+		};
+		BFA437B92C44E563008759B8 /* WWDC24API */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WWDC24API;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF0F03662C1A7A9400001601 /* Project object */;
 }

@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import WWDC24API
 
 // Preview with parameter controls
 #Preview("WWDC24AnimatedText") {

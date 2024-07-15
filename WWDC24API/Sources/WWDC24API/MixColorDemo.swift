@@ -7,8 +7,10 @@
 
 import SwiftUI
 
-struct MixColorDemo: View {
-    var body: some View {
+public struct MixColorDemo: View {
+    public init() {}
+    
+    public var body: some View {
         VStack {
             HStack {
                 HStack {

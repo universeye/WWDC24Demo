@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-struct NewSfSymbolDemo: View {
+public struct NewSfSymbolDemo: View {
     @State private var isOn = false
     @State private var count = 0
     
-    var body: some View {
+    public init() {}
+    
+    public var body: some View {
         VStack {
             Image(systemName: isOn ? "bell.fill" : "bell.slash.fill")
                 .font(.system(size: 100, weight: .bold))
