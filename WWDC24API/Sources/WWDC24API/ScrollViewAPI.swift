@@ -9,6 +9,7 @@ import SwiftUI
 
 public struct ScrollViewAPI: View {
     @State private var isScrolling: Bool = false
+    @State private var isShowBackButton = false
     public init() {}
     
     public var body: some View {
@@ -36,6 +37,13 @@ public struct ScrollViewAPI: View {
                     }
                 }
             }
+            .onScrollGeometryChange(for: Bool.self, of: { geometry in
+                geometry.contentOffset.y < geometry.contentInsets.top
+            }, action: { wasScrolledToTop, isScrolledToTop in
+                withAnimation {
+                    isShowBackButton = !isScrolledToTop
+                }
+            })
             .toolbarVisibility(isScrolling ? .hidden : .visible, for: .tabBar)
             .toolbarVisibility(isScrolling ? .hidden : .visible, for: .navigationBar)
             .navigationTitle("Mesheesh")
@@ -54,6 +62,27 @@ public struct ScrollViewAPI: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical)
                 .background(.ultraThinMaterial)
+                
+                if isShowBackButton {
+                    Button {
+
+                    } label: {
+                        Label("Back to top", systemImage: "arrow.up")
+                            .font(.title3)
+                            .bold()
+                            .foregroundStyle(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(.black.mix(with: .white, by: 0.32))
+                            .clipShape(.rect(cornerRadius: 10))
+                            .padding(.horizontal)
+                            .shadow(color: .gray.opacity(0.4), radius: 10)
+                    }
+                    .animation(.bouncy, value: isShowBackButton)
+                    .scaleEffect(isShowBackButton ? 1 : 0)
+//                    .transition(.move(edge: .top))
+                    .padding(.top)
+                }
                 Spacer()
             }
         }
